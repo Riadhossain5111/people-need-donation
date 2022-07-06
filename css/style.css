@@ -1,3 +1,187 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+     margin: 0;
+
+}
 p{
-    background: #000;
+    color: #f9f9f9;
+}
+hr{
+    width: 70%;
+    text-align: center;
+    color: #DDDDDD;
+}
+
+.header-area{
+    background-image: url('/images/header-bg.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    opacity: 0.9;
+    
+}
+.header-area h1{
+    font-size: 40px;
+    color: #fff;
+}
+.btn-area{
+    margin-top: 33px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background:#FF5959;
+    border-radius: 50px;
+
+}
+
+.donate-area{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.list-item{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.item-one,.item-two,.item-three,.item-four,.item-five{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: 800;
+   
+}
+.item-two{
+    border: 1px solid #FF5959;
+}
+.item-two li{
+    color: #FF5959;
+}
+.donate-area{
+    padding-top: 100px;
+    
+}
+.donate-plan{
+    padding-top: 100px;
+}
+.donate-plan h2{
+ text-align: center;
+ font-size: 30px;
+}
+.donate-plan p{
+    color: #707070;
+    text-align: center;
+    padding-bottom: 50px;
+    
+   }
+.donate-area h2{
+    font-size: 30px;
+
+}
+.donate-area p{
+    color: #707070;
+}
+.donate-plan-item{
+    display: flex;
+    margin-right: 10px;
+
+
+}
+.donate-plan-item p{
+    color: #707070;
+}
+.d-item-one{
+    background-color: #EDF5F6;
+    margin-right: 40px;
+    margin-left: 30px;
+   
+}
+.d-item-one p{
+    text-align: justify;
+
+}
+.d-item-two p{
+    text-align: justify;
+
+}
+.d-item-three p{
+    text-align: justify;
+
+}
+.d-item-two{
+    background-color: #FFEEEE;
+    margin-right: 40px;
+}
+.d-item-three{
+    background-color: #FFF4D6;
+    margin-right: 30px;
+}
+.d-item-one ,.d-item-two, .d-item-three{
+    padding:40px ;
+}
+
+.volunteer-area{
+    background-image: url('/images/ct1.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+.volunteer-area h2{
+    color: #fff;
+}
+
+.update-area{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.update-area h2{
+    font-size: 30px;
+}
+.update-area p{
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.update-sub-button{
+    background:#FFF4D6 ;
+    padding: 115px 40px;
+    width: 50%;
+    margin-left: 330px;
+   
+}
+button{
+    color: #fff;
+    padding: 10px 40px;
+    background: #FF5959;
+    margin: 0;
+    border: 5px;
+}
+input{
+    background: #D9D9D9;
+    padding: 8px 80px;
+    margin: -6px;
+}
+
+.fotter{
+    text-align: center;
+    background: #0B0D17;
+    padding: 20px 30px;
+    
+}
+.fotter h4{
+    color: #FF5959;
+   
 }
